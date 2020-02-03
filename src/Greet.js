@@ -1,5 +1,10 @@
 import React from 'react';
 
+Greet.defaultProps = {
+    whom :"Bob",
+    how :"The Price is Wrong"
+}
+
 function Greet({ whom, how, color }) {
     return(
     <div 
@@ -8,11 +13,6 @@ function Greet({ whom, how, color }) {
         <h1>{how}, {whom}!</h1>
     </div>
     );
-}
-
-Greet.defaultProps = {
-    whom :"Bob Barker",
-    how :"The Price is Wrong"
 }
 
 export default Greet;
