@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: blueviolet;
+  
+}
+
+.card {
+  border:2px solid gold;
+  border-radius: 15px;
+  padding: 8px 14px;  
+}
+
+.card + .card {
+  margin-top:20px;
+}
+
+.greet {
+  color: #888;
+}
+
+.greet h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+

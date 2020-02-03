@@ -9,7 +9,10 @@ function App() {
       <Greet
         whom="Cthulu"
         how="Salutations"
+        color="red"
        />
+       <Greet whom="someone" how="hey" color="blue" />
+       <Greet />
     </div>
   );
 }
